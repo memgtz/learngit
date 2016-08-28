@@ -1,0 +1,67 @@
+git
+
+sudo apt-get install git
+
+git config --global user.name "mengtz"
+git config --global user.email "mtz3@qq.com"
+
+mkdir git
+cd git
+pwd
+
+git init
+
+ls -ah
+   
+
+git add readme.txt
+git commit -m "wrote a readme file"
+
+git add file1.txt file2.txt
+git commit -m "add 3 files"
+
+git status
+
+git diff
+
+git log
+git reset --hard HEAD^
+cat readme.txt
+
+git reflog
+girt reset --hard commit_id
+
+
+#工作区（Working Directory）
+#版本库（Repository）  工作区有一个隐藏目录.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
